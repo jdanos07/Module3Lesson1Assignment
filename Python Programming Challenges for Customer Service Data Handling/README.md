@@ -1,6 +1,6 @@
 2. Python Programming Challenges for Customer Service Data Handling
 
-The program associated with this task is run through Main.py.
+The program associated with this task is run through Main.py, housed in the "Task 1" folder.
 
 Main.py works with "newService.py", "ticketDisplay.py", "ticketStatuscahnge.py", and "exitStrategy.py" to take the users information and issue, then organize the service tickets that can be marked complete once handled. Currently any user can mark completion and view service tickets by compeletion status.
 
