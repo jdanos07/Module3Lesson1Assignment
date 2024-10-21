@@ -8,7 +8,7 @@ Main.py is the "Main Menu" to the program.
 
 In Main.py the user can choose to:
     1. Create a new ticket.
-    2. Display Current tickets and filter the current tickets based on completion status.
+    2. Display Current tickets.
     3. Change the completion status.
     4. Exit the program
 
