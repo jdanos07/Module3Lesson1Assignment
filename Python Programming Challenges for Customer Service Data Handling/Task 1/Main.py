@@ -2,8 +2,10 @@ service_tickets = {
     'ticket1': {'customer': 'Jordan', 'issue': 'Can\'t log in. Incorrect username.', 'status': 'open'}, 
     'ticket2': {'customer': 'Wylie', 'issue': 'The system won\'t load', 'status': 'open'}
     }
-
-
+import newService
+import ticketDisplay
+import ticketStatuschange
+import exitStrategy
 
 def service_ticket_submission():
     print('Welcome to the Service Ticket Submission and Tracking system\n')
@@ -18,17 +20,17 @@ def service_ticket_submission():
 
         else:
             if menu_selection == '1':
-                import newService
-                newService.new_service()
+                
+                newService.new_service(service_tickets)
             elif menu_selection == '2':
-                import ticketDisplay
-                ticketDisplay.ticket_display()
+                
+                ticketDisplay.ticket_display(service_tickets)
             elif menu_selection == '3':
-                import ticketStatuschange
-                ticketStatuschange.ticket_status_change()
+                
+                ticketStatuschange.ticket_status_change(service_tickets)
             elif menu_selection == '4':
-                import exitStrategy
-                exitStrategy.exit_strategy()
+                
+                exitStrategy.exit_strategy(service_tickets)
                 break
             else:
                 print('Select from the menu options provided.')
