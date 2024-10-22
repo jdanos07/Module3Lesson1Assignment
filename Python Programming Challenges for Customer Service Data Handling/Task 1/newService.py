@@ -1,3 +1,4 @@
+
 def new_service(service_tickets):
     # information gathering and submission of new ticket
     ticket_creation = input("Is a new service ticket required? Yes/No ").lower()
